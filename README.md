@@ -1,6 +1,5 @@
-*Currently pretty inefficient/insecure*
+> v0.3.DEV
 
-v0.2.239
 
 [Get the docs](https://restfulapi13.docs.apiary.io/#)
 
@@ -32,15 +31,13 @@ If there is no environment defined when starting the application then it default
 To clear expired tokens while the server is running run:
 `NODE_ENV=tokClear node .`
 
-## Dependancies
+### Errors
+Learn about errors and their meanings [here](https://github.com/dudeisbrendan03/RESTful-api/blob/master/.github/ERRORS.md)
+
+## Dependencies
 None(ish)!
 
-I have no imports, no need for a package.json or any dependacy management. But this *DOES* require Node 8.*.
-
-## To-do
-- Logging
-- Change how the console displays requests and content
-- Actually build the authentication part of the API, at the minute it may only deliver content (poorly) and make some simple RESTful requests. I haven't actually put mutch into the API yet.
+We have no imports, no need for a package.json or any dependacy management. But this *DOES* require Node 8.*.
 
 ### Credits
-[Credits file](https://github.com/dudeisbrendan/RESTful-api/blob/master/.github/CREDIT.md)
+[Credits file](https://github.com/dudeisbrendan03/RESTful-api/blob/master/.github/CREDITS.md)
