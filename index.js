@@ -290,7 +290,8 @@ const router = {
     "auth": handlers.accesstoken,
     "instance/info": handlers.instance.info,
     "instance": handlers.instance,
-    "favicon.ico": handlers.favicon
+    "favicon.ico": handlers.favicon,
+    "quiz": handlers.quiz
 };
 
 module.exports = httpServer;
